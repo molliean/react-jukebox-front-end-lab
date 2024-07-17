@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000221;
+}
+
+.track-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #6A1CC4;
+    border-radius: 30px;
+    padding: 50px 10px;
+    margin: 20px;
+    color: #ECECEC;
+}
+
+.track-container li {
+    list-style-type: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
